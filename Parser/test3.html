@@ -1,0 +1,32 @@
+<window title="Menu Button Demo" width="500" height="400" bgcolor="#f0f0f0">
+
+
+    <vbox spacing="10" margin="20">
+        <hbox spacing="0">
+            <menu_button label="File" bgcolor="#3498db" width="100" height="35">
+                <menu orientation="vertical">
+                    <menu_item label="New" />
+                    <menu_item label="Open">
+                        <menu orientation="vertical">
+                            <menu_item label="Recent File 1" />
+                            <menu_item label="Recent File 2" />
+                            <menu_separator />
+                            <menu_item label="Clear Recent" />
+                        </menu>
+                    </menu_item>
+                    <menu_separator />
+                    <menu_item label="Exit" />
+                </menu>
+            </menu_button>
+            <menu_button label="Open" bgcolor="#3498db" width="100" height="35">
+                <menu orientation="vertical">
+                    <menu_item label="New" />
+                    <menu_item label="Open" />
+                    <menu_separator />
+                    <menu_item label="Exit" />
+                </menu>
+            </menu_button>
+        </hbox>
+    </vbox>
+
+</window>
